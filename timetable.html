@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table{
+
+            background-color:rgb(240, 240, 240);
+        }
+
+        tr,td,th{
+            border-color: black;
+            border-width: 2px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>This is Time Table</h1>
+    <table border="4" cellspacing="9" cellpadding="10">
+        <thead>
+
+            <tr> 
+            <th>Days/Periods</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <td></td>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+        </tr>
+
+
+        </thead>
+
+        <tbody>
+            <tr>
+            <td>Mon</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Hindi</td>
+            <td rowspan="6"  > <div style="writing-mode: vertical-rl; text-orientation: upright;"> BREAK </div> </td>
+            <td>Maths</td>
+            <td>games</td>
+        <td>Moral Science</td>
+        </tr>
+
+        <tr>
+            <td>Tue</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Hindi</td>
+
+            <td>Maths</td>
+            <td>games</td>
+        <td>Moral Science</td>
+        </tr>
+
+        <tr>
+            <td>Wed</td>
+            <td>Science</td>
+            <td>English</td>
+            <td rowspan="3">Hindi</td>
+
+            <td>Maths</td>
+            <td>games</td>
+        <td>Moral Science</td>
+        </tr>
+
+        <tr>
+            <td>Thu</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Maths</td>
+            <td>games</td>
+        <td>Moral Science</td>
+        </tr>
+
+        <tr>
+            <td>Fri</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Maths</td>
+            <td>games</td>
+        <td>Moral Science</td>
+        </tr>
+
+        <tr>
+            <td>Sat</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Hindi</td>
+            <td colspan="3">Maths</td>
+        </tr>
+
+
+        </tbody>
+
+       <tfoot>
+        <tr>
+        <th colspan="8" >This is Class IX</th>
+        </tr>
+        </tfoot>
+
+
+    </table>
+</body>
+</html> 
+ 
+table{
+    width:50%;
+    padding:4px;
+    background-color:rgb(235, 240, 230);
+}
+
+tr,td,th{
+    border-color: insetgrey;
+    border-width: 2px;
+}
+tr:hover{
+    background-color: rgb(130, 170, 170);
+}
